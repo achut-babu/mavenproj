@@ -1,2 +1,2 @@
 FROM tomcat:latest
-RUN /target/*.war /usr/local/tomcat/webapps/
+RUN /target/achut.war /usr/local/tomcat/webapps/
